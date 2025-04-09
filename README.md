@@ -1,3 +1,3 @@
-# Montage Calculator (Classic Version)
+# Montage Calculator JS
 
-Работающая версия с pages/index.tsx для Vercel.
+Версия без TypeScript. Работает без установки дополнительных пакетов.
