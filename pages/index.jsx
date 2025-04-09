@@ -7,10 +7,10 @@ export default function Home() {
   const [result, setResult] = useState(null);
 
   const calculateTime = () => {
-    const b0 = 14.5;
-    const b1 = -1.5;
-    const b2 = -2.0;
-    const b3 = -3.0;
+    const b0 = 23.888;
+    const b1 = -2.012;
+    const b2 = -2.013;
+    const b3 = -4.137;
     const y = b0 + b1 * x1 + b2 * x2 + b3 * x3;
     setResult(y.toFixed(2));
   };
