@@ -23,8 +23,10 @@ export default function Home() {
       </header>
 
       {/* Основной контент */}
+     <main style={{ padding: '20px' }}>
+        <h1>Добро пожаловать на калькулятор монтажа!</h1>
       <main style={{ padding: '20px' }}>
-        <h1 style={{ marginBottom: '20px' }}>Калькулятор времени монтажа</h1>
+        <h1 style={{ marginBottom: '10px' }}>Калькулятор времени монтажа</h1>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '400px' }}>
           <label>
